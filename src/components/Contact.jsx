@@ -16,13 +16,39 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-
+    const { name, value } = e.target;
+    setForm({...form, [name]: [value]});
   }
   const handleSubmit = (e) => {
-
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send(
+      "service_8lx0wh1", //template id
+      "template_cmy5uib", //service id
+      {
+        from_name: form.name,
+        to_name: 'Neelesh',
+        from_email: form.email,
+        to_email: "nt00605@gmail.com",
+        message: form.message
+      },
+      "oia6fG5cVn6QkqPpE" //public key
+      ).then(() => {
+        setLoading(false);
+        alert(`Thank you ${form.name} for contacting me. I will get back to you`)
+        setForm({
+          name:'',
+          message: '',
+          email: ''
+        })
+      }, (error) => {
+        setLoading(false);
+        console.log(error);
+        alert('Something went wrong')
+      })
   }
   return (
-    <div className="xl:mt-12 flex xl:flew-row flex-col-reverse  gap-10 overflow-hidden">
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse  gap-10 overflow-hidden">
       <motion.div 
         variants={slideIn("left", "tween",  0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -64,7 +90,7 @@ const Contact = () => {
             <textarea 
               rows="7"
               name="message"
-              value={form.meassage}
+              value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white
