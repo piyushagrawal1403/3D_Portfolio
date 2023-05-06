@@ -19,7 +19,7 @@ const Hero = () => {
             Neelesh</span></h1>
             <p className={`${styles.heroSubText} mt-2 
             text-white-100`}>
-              I automate tasks, monitore and
+              I automate tasks, monitor and
               <br className='sm:block hidden'/>
               remediate customer issues
             </p>
