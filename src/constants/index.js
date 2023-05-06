@@ -8,7 +8,6 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
@@ -20,10 +19,10 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   vmware,
   moogle,
-  benzag_labs
+  benzag_labs,
+  kubernetes
 } from "../assets";
 
 export const navLinks = [
@@ -82,10 +81,6 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -94,8 +89,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
     name: "git",
@@ -118,7 +113,7 @@ const technologies = [
     icon: python
   },
   {
-    name: "firbase",
+    name: "firebase",
     icon: firebase
   },
 ];

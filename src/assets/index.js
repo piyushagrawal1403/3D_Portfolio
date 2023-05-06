@@ -16,12 +16,11 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
 import jenkins from './tech/jenkins.png'
 import bash from './tech/bash.png'
 import firebase from './tech/firebase.png'
 import python from './tech/python.png'
+import kubernetes from './tech/kubernetes.png'
 
 import vmware from './company/VMware.jpeg'
 import moogle from './company/moogle.png'
@@ -49,8 +48,6 @@ export {
   nodejs,
   reactjs,
   redux,
-  tailwind,
-  threejs,
   jenkins,
   bash,
   python,
@@ -60,5 +57,6 @@ export {
   tripguide,
   vmware,
   moogle,
-  benzag_labs
+  benzag_labs,
+  kubernetes
 };
