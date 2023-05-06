@@ -19,9 +19,9 @@ const Hero = () => {
             Neelesh</span></h1>
             <p className={`${styles.heroSubText} mt-2 
             text-white-100`}>
-              I Develop 3D visuals, user 
+              I automate tasks, monitore and
               <br className='sm:block hidden'/>
-              interfaces and web applications
+              remediate customer issues
             </p>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Hero = () => {
                 y: [0,24,0]
               }}
               transition={{
-                duration: 1.5,
+                duration: 1,
                 repeat: Infinity,
                 repeatType: 'loop'
               }}

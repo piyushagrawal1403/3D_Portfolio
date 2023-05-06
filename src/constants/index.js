@@ -5,7 +5,6 @@ import {
   web,
   javascript,
   html,
-  css,
   reactjs,
   redux,
   nodejs,
@@ -16,13 +15,14 @@ import {
   bash,
   firebase,
   python,
-  carrent,
-  jobit,
-  tripguide,
   vmware,
   moogle,
   benzag_labs,
-  kubernetes
+  kubernetes,
+  expense_tracker,
+  crown_clothing,
+  maynooth,
+  yelpcamp
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
+    icon: creator,
+  },
+  {
+    title: "Site Reliability Engineer",
     icon: web,
   },
   {
@@ -53,20 +57,12 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Software Developer",
-    icon: creator,
-  },
 ];
 
 const technologies = [
   {
     name: "HTML 5",
     icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
   {
     name: "JavaScript",
@@ -200,9 +196,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Yelp Camp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A server side rendering website built for choosing campgrounds with technologies like jQuery, MongoDB, HTML, CSS, mongoose, passport, node, multer and other javascript libraries.",   
     tags: [
       {
         name: "react",
@@ -213,55 +209,88 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "ejs",
+        color: "orange-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: yelpcamp,
+    source_code_link: "https://github.com/neelesh17/YelpCamp",
   },
   {
-    name: "Job IT",
+    name: "Crown Clothing",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A client side rending e-commerce shopping website built using React, Redux, Firebase, HTML, Styled Component, NodeJS , Express, stripe for processing payments and react-lazy for optimising code",    
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "stripe",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: crown_clothing,
+    source_code_link: "https://github.com/neelesh17/crown-clothing",
   },
   {
-    name: "Trip Guide",
+    name: "Maynooth Furniture",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A furniture purchasing site using React, Redux, Styled Component, Express, NodeJS, PassportJS, MongoDB, Stripe for payments and react-lazy for optimising code", 
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux",
         color: "pink-text-gradient",
       },
+      {
+        name:"styled-components",
+        color: "orange-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: maynooth,
+    source_code_link: "https://github.com/neelesh17/Mayooth-Furniture",
   },
+  {
+    name: "Expense Tracker",
+    description:
+      "A Voice automated expense tracker made with the help of react, speechly and chartJS. It is also a Progressive Web App, thus it can also be install as an app in both android and IOS.", 
+      tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "speechly",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: expense_tracker,
+    source_code_link: "https://github.com/neelesh17/Expense-Tracker",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -7,7 +7,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -26,9 +25,10 @@ import vmware from './company/VMware.jpeg'
 import moogle from './company/moogle.png'
 import benzag_labs from './company/benzag-labs.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crown_clothing from './crown_clothing.png'
+import expense_tracker from './expense_tracker.png'
+import maynooth from './maynooth.png'
+import yelpcamp from './yelpcamp.png'
 
 export {
   logo,
@@ -39,7 +39,6 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
   git,
   html,
@@ -52,11 +51,12 @@ export {
   bash,
   python,
   firebase,
-  carrent,
-  jobit,
-  tripguide,
   vmware,
   moogle,
   benzag_labs,
-  kubernetes
+  kubernetes,
+  crown_clothing,
+  expense_tracker,
+  maynooth,
+  yelpcamp
 };
