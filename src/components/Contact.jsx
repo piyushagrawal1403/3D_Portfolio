@@ -24,8 +24,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_8lx0wh1", //template id
-        "template_cmy5uib", //service id
+        "service_m8ctvb3", //template id
+        "template_bxa7vmd", //service id
         {
           from_name: form.name,
           to_name: "Piyush",
@@ -33,13 +33,13 @@ const Contact = () => {
           to_email: "piyushagrawal1403@gmail.com",
           message: form.message,
         },
-        "oia6fG5cVn6QkqPpE" //public key
+        "WfaLx0uiUsFoTUX4y" //public key
       )
       .then(
         () => {
           setLoading(false);
           alert(
-            `Thank you ${form.name} for contacting me. I will get back to you`
+            `Thank you ${form.name} for contacting me. I will get back to you soon`
           );
           setForm({
             name: "",
