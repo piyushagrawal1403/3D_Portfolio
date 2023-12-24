@@ -38,10 +38,14 @@ import dsa from "./tech/dsa.png";
 import tcs from "./company/tcs.png";
 import persistent from "./company/persistent.png";
 
-import crown_clothing from "./crown_clothing.png";
-import expense_tracker from "./expense_tracker.png";
-import maynooth from "./maynooth.png";
-import yelpcamp from "./yelpcamp.png";
+// import crown_clothing from "./crown_clothing.png";
+// import expense_tracker from "./expense_tracker.png";
+// import maynooth from "./maynooth.png";
+// import yelpcamp from "./yelpcamp.png";
+import movie from "./movie.png";
+import busmang from "./busmang.png";
+import live from "./live.png";
+import airindia from "./airindia.png";
 
 export {
   logo,
@@ -81,8 +85,12 @@ export {
   persistent,
   // benzag_labs,
   // kubernetes,
-  crown_clothing,
-  expense_tracker,
-  maynooth,
-  yelpcamp,
+  // crown_clothing,
+  // expense_tracker,
+  // maynooth,
+  // yelpcamp,
+  movie,
+  busmang,
+  live,
+  airindia,
 };

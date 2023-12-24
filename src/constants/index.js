@@ -29,10 +29,14 @@ import {
   tcs,
   persistent,
   // kubernetes,
-  expense_tracker,
-  crown_clothing,
-  maynooth,
-  yelpcamp,
+  // expense_tracker,
+  // crown_clothing,
+  // maynooth,
+  // yelpcamp,
+  movie,
+  busmang,
+  live,
+  airindia,
 } from "../assets";
 
 export const navLinks = [
@@ -132,27 +136,26 @@ const technologies = [
 const experiences = [
   {
     title: "System Engineer",
-    company_name: "Tata Consultancy Services",
+    company_name: "Tata Consultancy Services, Kolkata",
     icon: tcs,
     iconBg: "#E6DEDD",
     date: "Oct 2023 - Present",
     points: [
-      "Worked with React, Reselect, Redux, Firebase, Razorpay Api, Node-Sass, SailsJS, REST Apis and MongoDB.",
-      "Implemented state and async code management using redux and saga, dynamic loading SVG animation generator.",
-      "Implemented server functionalities using best practies regarding REST api and sailsJS.",
+      "Developing a web application built in Angular for AIR INDIA using Adobe Experience Manager technology.",
+      "I am handling different parts of making the website, especially how it looks and works with other systems.",
+      "Utilized tools such as GitHub, Visual Studio Code, and AEM tool along with cutting-edge technologies, to ensure efficient and effective project development.",
     ],
   },
   {
     title: "System Engineer Intern",
-    company_name: "Tata Consultancy Services",
+    company_name: "Tata Consultancy Services, Bengaluru",
     icon: tcs,
     iconBg: "#E6DEDD",
     date: "Feb 2023 - June 2023",
     points: [
-      "Switched basic app framework from VueJS to ReactJS and implemented provided AdobeXD design Upgrades.",
-      "Applied multi-threading using web-worker for reoccurring tasks on react.",
-      "Implemented multiple lambda functions, ses templates for the company’s AWS server.",
-      "Worked on optimising and increasing the page speed score of previously built applications",
+      "Developed iOS app using Swift UI.",
+      "Learned various aspects of app development, including designing the user interface and integrating APIs.",
+      "Used tools like GitHub, and Xcode for effective project development.",
     ],
   },
   {
@@ -162,24 +165,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - June 2022",
     points: [
-      "Worked on super-collider to gather data using vdkcli and python scripting and creating charts to monitor data.",
-      "Worked with python scripting to automate data collection through super-collider job which was previously done manually",
-      "Worked with tools like wavefront, bigpanda, logz to monitor, maintain and remediate alerts for customer sddc’s",
+      "Successfully completed Martial program and earned a spot for further specialized training.",
+      "During training learned  full-stack development, covering things like C++, SQL, problem-solving skills (DSA), OOPS, computer networks, operating systems, and web technologies like HTML, CSS, and JavaScript.",
+      "Applied learning to real-world projects during the training period, leading to the successful completion and certification of a hands-on live project.",
     ],
   },
-  // {
-  //   title: "Member of Technicla Staff - 1",
-  //   company_name: "VMware",
-  //   icon: vmware,
-  //   iconBg: "#E6DEDD",
-  //   date: "July 2022 - Present",
-  //   points: [
-  //     "Worked on automating & patching activity for different components of the project using python and Jenkins.",
-  //     "Day to day activities involved monitoring, remediating and escalating customer’s software defined data center alerts",
-  //     "Authored RTS(Remediation & Troubleshooting Service) scripts which use python scripting for automating common day to day alerts triaging and remediation",
-  //     "Developed and maintained monitoring capabilities for diffent aspects of the project like backup failure, vm snapshot analysis, cert expiry etc. using python and jenkins",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -211,100 +201,122 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Yelp Camp",
+    name: "Air India",
     description:
-      "A server side rendering website built for choosing campgrounds with technologies like jQuery, MongoDB, HTML, CSS, mongoose, passport, node, multer and other javascript libraries.",
+      "It is a web application built in Angular using AEM technology, handling different components of the website, especially how it looks and works with other systems.",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Frontend Development",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "AEM",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "Apache Maven",
         color: "pink-text-gradient",
       },
       {
-        name: "ejs",
+        name: "Github",
         color: "orange-text-gradient",
       },
     ],
-    image: yelpcamp,
-    source_code_link: "https://github.com/neelesh17/YelpCamp",
+    image: airindia,
+    // source_code_link: "https://github.com/neelesh17/YelpCamp",
   },
   {
-    name: "Crown Clothing",
+    name: "Movie Recommender System",
     description:
-      "A client side rending e-commerce shopping website built using React, Redux, Firebase, HTML, Styled Component, NodeJS , Express, stripe for processing payments and react-lazy for optimising code",
+      "Used Content-based ML algorithm to recommend movies to a user from dataset of 5000 movies from the TMDB site, As the user provides more inputs or takes actions on the recommender, the engine becomes more accurate.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "redux",
+        name: "Machine Learning",
         color: "orange-text-gradient",
       },
+      {
+        name: "Jupyter Notebook",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cosine distance",
+        color: "blue-text-gradient",
+      },
     ],
-    image: crown_clothing,
-    source_code_link: "https://github.com/neelesh17/crown-clothing",
+    image: movie,
+    source_code_link: "https://movie-recommendation-system-i3kp.onrender.com/",
   },
   {
-    name: "Maynooth Furniture",
+    name: "Live Weather Detection",
     description:
-      "A furniture purchasing site using React, Redux, Styled Component, Express, NodeJS, PassportJS, MongoDB, Stripe for payments and react-lazy for optimising code",
+      "Developed a weather app with dark mode support, allowing users to check the current weather for their location and search for weather in other locations and Integrated networking capabilities with URLSession and parsed JSON using Encodable and Decodable protocols, while also utilizing Core Location for GPS-based location retrieval.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "swiftUi",
         color: "green-text-gradient",
       },
-      {
-        name: "redux",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "orange-text-gradient",
-      },
     ],
-    image: maynooth,
-    source_code_link: "https://github.com/neelesh17/Mayooth-Furniture",
+    image: live,
+    source_code_link: "https://github.com/piyushagrawal1403/Live-Weather.git",
   },
+  // {
+  //   name: "ShopBag E-Commerce Website",
+  //   description:
+  //     "A Voice automated expense tracker made with the help of react, speechly and chartJS. It is also a Progressive Web App, thus it can also be install as an app in both android and IOS.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: expense_tracker,
+  //   source_code_link: "https://piyushagrawal1403.github.io/ShopBag-Ecommerce/",
+  // },
   {
-    name: "Expense Tracker",
+    name: "Bus Reservation System",
     description:
-      "A Voice automated expense tracker made with the help of react, speechly and chartJS. It is also a Progressive Web App, thus it can also be install as an app in both android and IOS.",
+      "Used OOPS and File handling concepts for performing various functions like adding/displaying/updating/searching/ deleting bus records, displaying routes of buses, and seats renew.",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "speechly",
+        name: "File handline",
         color: "green-text-gradient",
       },
       {
-        name: "chartjs",
+        name: "Object-Oriented Programming (OOP)",
         color: "pink-text-gradient",
       },
     ],
-    image: expense_tracker,
-    source_code_link: "https://github.com/neelesh17/Expense-Tracker",
+    image: busmang,
+    source_code_link:
+      "https://github.com/piyushagrawal1403/Bus-Reservation-system.git",
   },
 ];
 
