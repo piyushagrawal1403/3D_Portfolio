@@ -28,7 +28,7 @@ const Hero = () => {
           >
             Systems Engineer at
             <br className="sm:block hidden" />
-            Tata Consultancy Services
+            Tata Consultancy Services, Kolkata
           </p>
         </div>
       </div>
