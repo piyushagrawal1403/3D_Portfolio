@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.png";
 
 // import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -28,7 +29,7 @@ import aem from "./tech/aem.png";
 import sql from "./tech/sql.png";
 import swiftui from "./tech/swiftui.png";
 import machineLearning from "./tech/machineLearning.png";
-import operatingSystem from "./tech/operatingSystem.png";
+// import operatingSystem from "./tech/operatingSystem.png";
 import cPlus from "./tech/cPlus.png";
 import dsa from "./tech/dsa.png";
 
@@ -37,7 +38,9 @@ import dsa from "./tech/dsa.png";
 // import benzag_labs from "./company/benzag-labs.png";
 import tcs from "./company/tcs.png";
 import persistent from "./company/persistent.png";
-
+import bvn from "./company/bvn.png";
+import indira from "./company/indira.png";
+import lncte from "./company/lncte.png";
 // import crown_clothing from "./crown_clothing.png";
 // import expense_tracker from "./expense_tracker.png";
 // import maynooth from "./maynooth.png";
@@ -54,6 +57,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   // docker,
@@ -75,7 +79,7 @@ export {
   sql,
   swiftui,
   machineLearning,
-  operatingSystem,
+  // operatingSystem,
   cPlus,
   dsa,
   // firebase,
@@ -83,6 +87,9 @@ export {
   // moogle,
   tcs,
   persistent,
+  bvn,
+  indira,
+  lncte,
   // benzag_labs,
   // kubernetes,
   // crown_clothing,

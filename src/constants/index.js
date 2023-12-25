@@ -23,11 +23,14 @@ import {
   sql,
   swiftui,
   machineLearning,
-  operatingSystem,
+  // operatingSystem,
   cPlus,
   dsa,
   tcs,
   persistent,
+  bvn,
+  lncte,
+  indira,
   // kubernetes,
   // expense_tracker,
   // crown_clothing,
@@ -47,6 +50,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -124,10 +131,6 @@ const technologies = [
     icon: machineLearning,
   },
   {
-    name: "Operating System",
-    icon: operatingSystem,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -172,6 +175,33 @@ const experiences = [
   },
 ];
 
+const educations = [
+  {
+    title: "B.tech. in Computer Science Engineering",
+    company_name: "Lncte, Bhopal",
+    icon: lncte,
+    iconBg: "#E6DEDD",
+    date: "2019 - 2023",
+    points: ["CGPA - 8.56"],
+  },
+  {
+    title: "Higher Secondary Education",
+    company_name: "Indira Gandhi H.S School, Sabalgarh",
+    icon: indira,
+    iconBg: "#E6DEDD",
+    date: "2018",
+    points: ["Percentage - 67.2"],
+  },
+  {
+    title: "Senior Secondary Education",
+    company_name: "Bhartiyam Vidya Niketan, Gwalior",
+    icon: bvn,
+    iconBg: "#E6DEDD",
+    date: "2016",
+    points: ["CGPA - 9.2"],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -203,7 +233,7 @@ const projects = [
   {
     name: "Air India",
     description:
-      "It is a web application built in Angular using AEM technology, handling different components of the website, especially how it looks and works with other systems.",
+      "It is a web application built in Angular using Adobe Experience Manager technology, handling different components of the website, especially how it looks and works with other systems.",
     tags: [
       {
         name: "angular",
@@ -214,7 +244,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "AEM",
+        name: "Adobe Experience Manager",
         color: "green-text-gradient",
       },
       {
@@ -255,9 +285,9 @@ const projects = [
     source_code_link: "https://movie-recommendation-system-i3kp.onrender.com/",
   },
   {
-    name: "Live Weather Detection",
+    name: "Weather Detection",
     description:
-      "Developed a weather app with dark mode support, allowing users to check the current weather for their location and search for weather in other locations and Integrated networking capabilities with URLSession and parsed JSON using Encodable and Decodable protocols, while also utilizing Core Location for GPS-based location retrieval.",
+      "Live weather app with dark mode support, allowing users to check the current weather for their location and search for weather in other locations and Integrated networking capabilities with URLSession and parsed JSON using Encodable and Decodable protocols, while also utilizing Core Location for GPS-based location retrieval.",
     tags: [
       {
         name: "react",
@@ -320,4 +350,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  educations,
+};

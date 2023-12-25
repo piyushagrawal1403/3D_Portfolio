@@ -26,12 +26,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
+          {/* <img
             src={logo}
             alt="logo"
             className="w-9
           h-9 object-contains"
-          />
+          /> */}
           <p
             className="text-white text-[18px]
           font-bold cursor-pointer flex"
@@ -84,7 +84,7 @@ const Navbar = () => {
               >
                 <a
                   download
-                  href={`https://drive.google.com/file/d/1Ls9aSVyVcA_Nfg6FboyNNG5iqOqwcO2b/view?usp=share_link`}
+                  href={`https://drive.google.com/file/d/1Ap4fzaT-8VYXNgmY40-8xVxfwNTCzULf/view`}
                   target="_blank"
                 >
                   Resume

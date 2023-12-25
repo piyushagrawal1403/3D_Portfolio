@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-
+import { github, linkedin } from "../assets";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -11,6 +11,30 @@ const Hero = () => {
       mx-auto ${styles.paddingX} flex flex-row
       items-start gap-5`}
       >
+        <div className="flex flex-col justify-center items-center mt-5">
+          <a
+            href="https://github.com/piyushagrawal1403?tab=repositories"
+            target="_blank"
+          >
+            <img
+              src={github}
+              alt="github"
+              className="w-12 h-15 object-contains"
+            />
+          </a>
+          &nbsp;
+          <a
+            href={`https://www.linkedin.com/in/piyush-agrawal1405/`}
+            target="_blank"
+          >
+            <img
+              src={linkedin}
+              alt="linkedin"
+              className="w-11 h-11 object-contains"
+            />
+          </a>
+        </div>
+
         <div
           className="flex flex-col justify-center
         items-center mt-5"
